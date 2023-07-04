@@ -31,4 +31,4 @@ services:
 
 databases:
   - name: mhorDB
-    plan: starter
+    plan: free
