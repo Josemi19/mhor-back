@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carteras",
+  "info": {
+    "singularName": "cartera",
+    "pluralName": "carteras",
+    "displayName": "Cartera"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "modelo": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "precio": {
+      "type": "integer"
+    },
+    "material": {
+      "type": "string"
+    }
+  }
+}
