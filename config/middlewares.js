@@ -11,13 +11,13 @@ module.exports = [
   'strapi::public',
   {
     name: "strapi::security",
-    config:{
-      contentSecurityPolicy:{
+    config: {
+      contentSecurityPolicy: {
         useDefaults: true,
-        directives:{
-          "conect-src": ["'self'","https:"],
-          "img-src":["'self'", "data:", "blob:", "https://res.cloudinary.com"],
-          "media-src":["'self'", "data:", "blob:"],
+        directives: {
+          "conect-src": ["'self'", "https:"],
+          "img-src": ["'self'", "data:", "blob:", "res.cloudinary.com"],
+          "media-src": ["'self'", "data:", "blob:", 'res.cloudinary.com'],
           upgradeInsecureRequests: null
         }
       }
