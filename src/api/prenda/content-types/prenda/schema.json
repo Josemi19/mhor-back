@@ -4,7 +4,8 @@
   "info": {
     "singularName": "prenda",
     "pluralName": "prendas",
-    "displayName": "Prendas"
+    "displayName": "Prendas",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,20 +16,24 @@
       "type": "string"
     },
     "img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "precio": {
       "type": "integer"
     },
     "talla": {
       "type": "string"
+    },
+    "descuento": {
+      "type": "integer"
     }
   }
 }
