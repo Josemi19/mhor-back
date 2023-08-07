@@ -29,8 +29,8 @@
     "precio": {
       "type": "integer"
     },
-    "material": {
-      "type": "string"
+    "descripcion": {
+      "type": "text"
     },
     "descuento": {
       "type": "integer"
